@@ -2,7 +2,7 @@
 # - initscript
 %define		_rc	b8
 Summary:	Send the uptime of the machine it's running on to a server
-Summary(pl):	Wysy³anie czas dzia³ania maszyny na serwer
+Summary(pl):	Wysy³anie czasu dzia³ania maszyny na serwer
 Name:		upclient
 Version:	5.0
 Release:	0.%{_rc}.0.1
