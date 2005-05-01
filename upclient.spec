@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Upclient is a small program that sends the uptime of the machine it's
 running on to a server (ufo.its.kun.nl). This server collects all
 uptimes and puts them in a table. To view the table, visit
-http://ufo.its.kun.nl/uptime/ . Upclient causes almost no traffic
+<http://ufo.its.kun.nl/uptime/>. Upclient causes almost no traffic
 (72bytes/minute), and won't give away any other information than the
 uptime, load and the operating system it's running on. But to make
 sure the program can't do any harm, don't run it as root. All it
@@ -27,7 +27,7 @@ totally freeware, so spread it around and make the list grow :)
 Upclient to ma³y program wysy³aj±cy uptime (czas dzia³ania) maszyny na
 której dzia³a na serwer (ufo.its.kun.nl). Serwer ten zbiera wszystkie
 czasy dzia³ania i umieszcza w tabeli. Tabelê mo¿na obejrzeæ pod
-adresem http://ufo.its.kun.nl/uptime/ . Upclient prawie nie powoduje
+adresem <http://ufo.its.kun.nl/uptime/>. Upclient prawie nie powoduje
 ruchu (72 bajty na minutê) i nie wysy³a ¿adnych innych informacji ni¿
 czas dzia³ania maszyny, obci±¿enie i system operacyjny na którym
 dzia³a. Jednak aby mieæ pewno¶æ, ¿e program nie zrobi nic z³ego, nie
