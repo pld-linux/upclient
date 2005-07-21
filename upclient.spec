@@ -5,10 +5,11 @@ Summary:	Send the uptime of the machine it's running on to a server
 Summary(pl):	Wysy³anie czasu dzia³ania maszyny na serwer
 Name:		upclient
 Version:	5.0
-Release:	0.%{_rc}.0.1
+Release:	0.%{_rc}.1
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/upclient/%{name}-%{version}%{_rc}.tar.gz
+# Source0-md5:	5d2ac85193fdb898dd16a694b05ac4d0
 URL:		http://upclient.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
