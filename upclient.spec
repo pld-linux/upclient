@@ -2,7 +2,7 @@
 # - initscript
 %define		_rc	b8
 Summary:	Send the uptime of the machine it's running on to a server
-Summary(pl):	Wysy³anie czasu dzia³ania maszyny na serwer
+Summary(pl.UTF-8):   WysyÅ‚anie czasu dziaÅ‚ania maszyny na serwer
 Name:		upclient
 Version:	5.0
 Release:	0.%{_rc}.1
@@ -24,17 +24,17 @@ sure the program can't do any harm, don't run it as root. All it
 needs, is access to /proc/uptime (and /proc/loadavg). Upclient is
 totally freeware, so spread it around and make the list grow :)
 
-%description -l pl
-Upclient to ma³y program wysy³aj±cy uptime (czas dzia³ania) maszyny na
-której dzia³a na serwer (ufo.its.kun.nl). Serwer ten zbiera wszystkie
-czasy dzia³ania i umieszcza w tabeli. Tabelê mo¿na obejrzeæ pod
+%description -l pl.UTF-8
+Upclient to maÅ‚y program wysyÅ‚ajÄ…cy uptime (czas dziaÅ‚ania) maszyny na
+ktÃ³rej dziaÅ‚a na serwer (ufo.its.kun.nl). Serwer ten zbiera wszystkie
+czasy dziaÅ‚ania i umieszcza w tabeli. TabelÄ™ moÅ¼na obejrzeÄ‡ pod
 adresem <http://ufo.its.kun.nl/uptime/>. Upclient prawie nie powoduje
-ruchu (72 bajty na minutê) i nie wysy³a ¿adnych innych informacji ni¿
-czas dzia³ania maszyny, obci±¿enie i system operacyjny na którym
-dzia³a. Jednak aby mieæ pewno¶æ, ¿e program nie zrobi nic z³ego, nie
-nale¿y go uruchamiaæ jako root. Wszystko, czego potrzebuje, to dostêp
-do /proc/uptime (i /proc/loadavg). Upclient jest ca³kowicie darmowy,
-wiêc mo¿na go rozprowadzaæ i doprowadzaæ do powiêkszania listy.
+ruchu (72 bajty na minutÄ™) i nie wysyÅ‚a Å¼adnych innych informacji niÅ¼
+czas dziaÅ‚ania maszyny, obciÄ…Å¼enie i system operacyjny na ktÃ³rym
+dziaÅ‚a. Jednak aby mieÄ‡ pewnoÅ›Ä‡, Å¼e program nie zrobi nic zÅ‚ego, nie
+naleÅ¼y go uruchamiaÄ‡ jako root. Wszystko, czego potrzebuje, to dostÄ™p
+do /proc/uptime (i /proc/loadavg). Upclient jest caÅ‚kowicie darmowy,
+wiÄ™c moÅ¼na go rozprowadzaÄ‡ i doprowadzaÄ‡ do powiÄ™kszania listy.
 
 %prep
 %setup -q -n %{name}-%{version}%{_rc}
